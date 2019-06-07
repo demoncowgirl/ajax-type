@@ -17,11 +17,14 @@
   },
   "homepage": "https://github.com/demoncowgirl/ajax-type#readme",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "express": "^4.17.1"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
     "run-sequence": "^2.2.1"
   }
 }

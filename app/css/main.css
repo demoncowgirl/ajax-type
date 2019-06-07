@@ -1,20 +1,39 @@
 body {
   margin: 0;
   font-family: 'Roboto Condensed', sans-serif;
+  height: 600px;
 }
 
 .background {
+ width: 100%;
+ height: auto;
+ display: block;
+ position: relative;
+  z-index: -1;
   margin: 0;
   background-image: url('../images/john-mark-smith-55666-unsplash.jpg');
+  opacity: 0.50;
   background-size: cover;
-  opacity: 0.40;
   background-repeat: no-repeat;
 }
 
-.container-fluid {
-  max-width: 600px;
+.card {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 360px;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #FOFOFO;
+}
+
+.card-body {
+  display: flex;
+  height: auto;
+  padding-top: 20px;
+  width: 260px;
+
 }
 
 .vertical-center {
@@ -37,21 +56,15 @@ body {
 }
 
 input {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
   font-size: 24px;
   background-color: #00D9D9;
   padding: 10px;
 }
 
-.container {
-  background-color: #FOFOFO;
-}
-
-hl {
-
-}
-
 ul {
-  font-size: 24px;
+  font-size: 18px;
   background-color: #FOFOFO;
-  padding: 5px;
 }
