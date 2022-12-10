@@ -18,7 +18,7 @@
   "homepage": "https://github.com/demoncowgirl/ajax-type#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
